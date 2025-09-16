@@ -1,0 +1,16 @@
+# Build directories
+target/
+logs/
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Log files
+*.log
+
+# Local configuration
+src/main/resources/application.properties
