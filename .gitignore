@@ -14,3 +14,17 @@ logs/
 
 # Local configuration
 src/main/resources/application.properties
+analyze_*.sh
+dependency-reduced-pom.xml
+# Generated files
+dependency-reduced-pom.xml
+
+# Analysis scripts
+analyze_*.sh
+analyze_*.py
+*_breakdown.sh
+find_peak_latency.sh
+
+# Keep tracked scripts
+!scripts/analyze_kms_latency.sh
+!scripts/analyze_kms_performance.sh
